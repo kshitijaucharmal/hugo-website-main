@@ -1,0 +1,53 @@
+theme = 'congo'
+baseURL = 'https://kshitijaucharmal.github.io/'
+languageCode = 'en'
+title = "Home"
+
+author = "Kshitij Aucharmal"
+avatarURL = "/avatar.jpg"
+info = 'AI/Game Developer'
+description = 'Personal Website'
+since = '2018'
+commit = "https://github.com/kshitijaucharmal/kshitijaucharmal.github.io/tree/"
+
+# Social Sites
+# [[params.social]]
+#   name = "Github"
+#   icon = "fa fa-github fa-2x"
+#   weight = 2
+#   url = "https://github.com/kshitijaucharmal/"
+# 
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa fa-gitlab fa-2x"
+#   weight = 2
+#   url = "https://gitlab.com/kshitijaucharmal/"
+# 
+# [[params.social]]
+#   name = "Youtube"
+#   icon = "fa fa-youtube fa-2x"
+#   weight = 2
+#   url = "https://youtube.com/@artificialcode/"
+# 
+# [[params.social]]
+#   name = "Instagram"
+#   icon = "fa fa-instagram fa-2x"
+#   weight = 2
+#   url = "https://instagram.com/k5h1t1j_4uch4rm4l/"
+# 
+# [[params.social]]
+#   name = "Itch.io"
+#   icon = "fa fa-twitter fa-2x"
+#   weight = 2
+#   url = "https://narutotheboss.itch.io"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url  = "/main"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "/blog"
+
