@@ -1,7 +1,7 @@
 ---
 title: "First Blog - Pup"
 date: 2022-11-09T16:44:09+05:30
-tags: ['personal', 'blog']
+tags: ['blog']
 ---
 
 ## What I learned today
@@ -20,11 +20,11 @@ to choose one, and then opens it up in a browser
 
 ![Gif](/get-links.gif)
 ## Tools used
-+ dmenu 
-+ grep 
-+ curl 
-+ pup 
-+ brave (any browser)
++ [dmenu](https://tools.suckless.org/dmenu/)
++ [grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/) (Already installed on unix systems)
++ [curl](https://curl.se/)
++ [pup](https://github.com/ericchiang/pup)
++ [brave](https://brave.com) (any browser)
 
 ## Walkthrough
 
