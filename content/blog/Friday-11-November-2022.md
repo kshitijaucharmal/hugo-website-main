@@ -58,3 +58,7 @@ commit and push.
 
 **Run this as a cron job every day at 10, and I got a 
 blog Automating script!!**
+
+## Update: 
+Couldn't get cron to work (I'm an idiot), so made a systemd script
+which runs new blog every day at 10, else on startup
