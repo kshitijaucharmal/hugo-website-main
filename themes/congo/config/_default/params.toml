@@ -16,7 +16,7 @@ mainSections = ["section1", "section2"]
 # robots = ""
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, custom
+  layout = "hamburger" # valid options: basic, hamburger, custom
 
 [footer]
   showCopyright = true
