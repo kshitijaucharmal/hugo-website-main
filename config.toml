@@ -51,3 +51,8 @@ commit = "https://github.com/kshitijaucharmal/kshitijaucharmal.github.io/tree/"
   weight = 1
   url  = "/blog"
 
+[[menu.main]]
+  name = "Programs"
+  weight = 1
+  url  = "/programs"
+
