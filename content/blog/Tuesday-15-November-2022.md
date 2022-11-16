@@ -25,7 +25,7 @@ By default, the bindings dont allow for vim keys, and also the colors are whack 
 The macros can make your life so much easier, but I haven't quite figured it out yet.
 
 ### Example config file:
-```toml
+```bash
 # ~/.newsboat/config
 
 # general settings
@@ -93,7 +93,7 @@ The urls file just contains all the urls/rss feeds you want
 to subscribe to.
 
 ### Example urls file
-```toml
+```
 --WEBSITES--
 https://kshitijaucharmal.github.io/index.xml
 https://lukesmith.xyz/index.xml

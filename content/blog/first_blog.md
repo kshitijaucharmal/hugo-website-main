@@ -30,22 +30,22 @@ to choose one, and then opens it up in a browser
 
 So first lets get a website, I'll use [mine](https://kshitijaucharmal.github.io/main), and curl it
 
-```toml
+```bash
 curl -sL https://kshitijaucharmal.github.io/main
 ```
 
 Now pass that in pup with the --color flag. This just makes it look better
 
-```toml
+```bash
 curl -sL https://kshitijaucharmal.github.io/main | pup --color
 ```
 
 We want all the links now, so as you might know, links in html are in a tag "\<a>" and in the attribute **href**.
-```toml
+```bash
 curl -sL https://kshitijaucharmal.github.io/main | pup --color 'a attr{href}'
 ```
 ## Output
-```toml
+```
 #main-content
 /
 /main
@@ -88,12 +88,12 @@ https://git.io/hugo-congo
 
 Lets grep out the lines starting with http to just get the links and pipe it to dmenu
 
-```toml
+```bash
 curl -sL https://kshitijaucharmal.github.io/main | pup --color 'a attr{href}' | grep '^http' | dmenu -i -l 10
 ```
  Now you can store it in a variable and ask brave to open it!!
 
-```toml
+```bash
 brave $(curl -sL https://kshitijaucharmal.github.io/main | pup --color 'a attr{href}' | grep '^http' | dmenu -i -l 10)
 ```
 

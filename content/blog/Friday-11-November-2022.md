@@ -14,7 +14,7 @@ gives the name and the title of the date.
 
 ## The Script
 
-```toml
+```bash
 #!/bin/sh
 
 hugo_project=$1
