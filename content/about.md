@@ -21,6 +21,7 @@ Don't want this website to be bloated, so I made it in [hugo](https://gohugo.io/
 + [Grid World](https://kshitijaucharmal.github.io/gridworld): A simple test of basic Q learning on a grid world
 + [NEAT Algorithm Visualization](https://kshitijaucharmal.github.io/NEAT-JS): NeuroEvolution Of Augumenting Topologies Algorithm Implemented in Javascript (p5.js)
 + [Bishop Challenge](https://narutotheboss.itch.io/bishop-challenge): A Game/Challenge I Made On a puzzle I know from somewhere, but cant find anywhere on the internet
++ [Dots](https://kshitijaucharmal.github.io/Dots-website): A simple genetic Algorithm which learns to reach a target over generations (no neural net involved)
 
 # Passion Projects (On Github / Gitlab):
 + [2048](https://github.com/kshitijaucharmal/2048): The classic 2048 Game Written in C++ Raylib
